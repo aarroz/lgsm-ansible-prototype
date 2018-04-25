@@ -1,0 +1,7 @@
+---
+- hosts: gameserver01
+  tasks:
+    - name: Update 7DaysToDie Server
+      shell: /bin/bash /home/egee/7dayz/sdtdserver update
+      register: stdout
+    - debug: var=stdout
