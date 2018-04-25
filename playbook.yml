@@ -5,3 +5,7 @@
       shell: /bin/bash /home/egee/7dayz/sdtdserver update
       register: stdout
     - debug: var=stdout
+    - name: Update Rust Server
+      shell: docker exec gscrust_rust-server_1 update
+      register: stdout
+    - debug: var=stdout
