@@ -6,7 +6,7 @@ To use this script, you need the following things:
 
 To get started with this script, you'll need to install Ansible. From a terminal, run:
 
-1. ``sudo apt install pip``
+1. ``sudo apt install python-pip``
 2. ``sudo pip install ansible``
 
 Once Ansible is installed do these things:
